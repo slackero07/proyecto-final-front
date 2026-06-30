@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "nombre": "2SN / SAE100    R2 AT 1/4\" (6,4 mm)",
+    "categoria": "Mangueras Hidraulicas",
+    "precio": 4889,
+    "imagen": "galeria/R2B.PNG",
+    "descripcion": "Lineas hidráulicas de alta presión, desde 50 a 415 bar. Apta para uso en sistemas hidráulicos basados\nen hidrocarburos, sintéticos o agua.",
+    "stock": 1000
+  },
+  {
+    "id": 2,
+    "nombre": "2SN / SAE100 R2 AT 3/8\" (9,5 mm)",
+    "categoria": "Mangueras Hidraulicas",
+    "precio": 6399,
+    "imagen": "galeria/R2B.PNG",
+    "descripcion": "Lineas hidráulicas de alta presión, desde 50 a 415 bar. Apta para uso en sistemas hidráulicos basados\nen hidrocarburos, sintéticos o agua.",
+    "stock": 1000
+  },
+  {
+    "id": 3,
+    "nombre": "2SN / SAE100 R2 AT 1/2\" (12,7 mm)",
+    "categoria": "Mangueras Hidraulicas",
+    "precio": 7565,
+    "descripcion": "Lineas hidráulicas de alta presión, desde 50 a 415 bar. Apta para uso en sistemas hidráulicos basados\nen hidrocarburos, sintéticos o agua.",
+    "imagen": "galeria/R2B.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 4,
+    "nombre": "2SN / SAE100 R2 AT 3/4\" (19,1 mm)",
+    "categoria": "Mangueras Hidraulicas",
+    "precio": 11213,
+    "descripcion": "Lineas hidráulicas de alta presión, desde 50 a 415 bar. Apta para uso en sistemas hidráulicos basados\nen hidrocarburos, sintéticos o agua.",
+    "imagen": "galeria/R2B.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 5,
+    "nombre": "2SN / SAE100 R2 AT 1\" (25,4 mm)",
+    "categoria": "Mangueras Hidraulicas",
+    "precio": 15129,
+    "descripcion": "Lineas hidráulicas de alta presión, desde 50 a 415 bar. Apta para uso en sistemas hidráulicos basados\nen hidrocarburos, sintéticos o agua.",
+    "imagen": "galeria/R2B.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 6,
+    "nombre": "PROTECTOR MANGUERA ANTILLAMA SILICONA 13 mm (1/2\")",
+    "categoria": "Funda Firejacket",
+    "precio": 9374,
+    "descripcion": "El recubrimiento tipo PYROJACKET consiste en un tejido de alta densidad de fibra de vidrio que protege la superficie a aislar del medio ambiente a través de la cámara de aire que genera. Por estar libre de ASBESTO, cumple a su vez con las normas internacionales de seguridad e higiene en el trabajo.",
+    "imagen": "galeria/FJ.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 7,
+    "nombre": "PROTECTOR MANGUERA ANTILLAMA SILICONA 19 mm (3/4\")",
+    "categoria": "Funda Firejacket",
+    "precio": 11691,
+    "descripcion": "El recubrimiento tipo PYROJACKET consiste en un tejido de alta densidad de fibra de vidrio que protege la superficie a aislar del medio ambiente a través de la cámara de aire que genera. Por estar libre de ASBESTO, cumple a su vez con las normas internacionales de seguridad e higiene en el trabajo.",
+    "imagen": "galeria/FJ.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 8,
+    "nombre": "PROTECTOR MANGUERA ANTILLAMA SILICONA 25 mm (1\")",
+    "categoria": "Funda Firejacket",
+    "precio": 15040,
+    "descripcion": "El recubrimiento tipo PYROJACKET consiste en un tejido de alta densidad de fibra de vidrio que protege la superficie a aislar del medio ambiente a través de la cámara de aire que genera. Por estar libre de ASBESTO, cumple a su vez con las normas internacionales de seguridad e higiene en el trabajo.",
+    "imagen": "galeria/FJ.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 9,
+    "nombre": "PROTECTOR MANGUERA ANTILLAMA SILICONA 38 mm (1-1/2\")",
+    "categoria": "Funda Firejacket",
+    "precio": 31201,
+    "descripcion": "El recubrimiento tipo PYROJACKET consiste en un tejido de alta densidad de fibra de vidrio que protege la superficie a aislar del medio ambiente a través de la cámara de aire que genera. Por estar libre de ASBESTO, cumple a su vez con las normas internacionales de seguridad e higiene en el trabajo.",
+    "imagen": "galeria/FJ.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 10,
+    "nombre": "PROTECTOR MANGUERA ANTILLAMA SILICONA 51 mm (2\")",
+    "categoria": "Funda Firejacket",
+    "precio": 31814,
+    "descripcion": "El recubrimiento tipo PYROJACKET consiste en un tejido de alta densidad de fibra de vidrio que protege la superficie a aislar del medio ambiente a través de la cámara de aire que genera. Por estar libre de ASBESTO, cumple a su vez con las normas internacionales de seguridad e higiene en el trabajo.",
+    "imagen": "galeria/FJ.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 11,
+    "nombre": "MACHO FIJO NPT 1/4\" P/MANG 1/4",
+    "categoria": "Terminales Hidraulicos",
+    "precio": 4006,
+    "descripcion": "Terminal hidráulico para prensado, fabricado en acero al carbono de alta resistencia. Compatible con mangueras hidráulicas SAE y disponible en roscas NPT, BSP, JIC y métricas. Garantiza conexiones seguras y libres de fugas en sistemas de alta presión.",
+    "imagen": "galeria/TH.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 12,
+    "nombre": "MACHO FIJO NPT 3/8\" P/MANG 3/8",
+    "categoria": "Terminales Hidraulicos",
+    "precio": 4471,
+    "descripcion": "Terminal hidráulico para prensado, fabricado en acero al carbono de alta resistencia. Compatible con mangueras hidráulicas SAE y disponible en roscas NPT, BSP, JIC y métricas. Garantiza conexiones seguras y libres de fugas en sistemas de alta presión.",
+    "imagen": "galeria/TH.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 13,
+    "nombre": "MACHO FIJO NPT 1/2\" P/MANG 1/2",
+    "categoria": "Terminales Hidraulicos",
+    "precio": 6667,
+    "descripcion": "Terminal hidráulico para prensado, fabricado en acero al carbono de alta resistencia. Compatible con mangueras hidráulicas SAE y disponible en roscas NPT, BSP, JIC y métricas. Garantiza conexiones seguras y libres de fugas en sistemas de alta presión.",
+    "imagen": "galeria/TH.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 14,
+    "nombre": "MACHO FIJO NPT 3/4\" P/MANG 3/4",
+    "categoria": "Terminales Hidraulicos",
+    "precio": 11551,
+    "descripcion": "Terminal hidráulico para prensado, fabricado en acero al carbono de alta resistencia. Compatible con mangueras hidráulicas SAE y disponible en roscas NPT, BSP, JIC y métricas. Garantiza conexiones seguras y libres de fugas en sistemas de alta presión.",
+    "imagen": "galeria/TH.PNG",
+    "stock": 1000
+  },
+  {
+    "id": 15,
+    "nombre": "MACHO FIJO NPT 1\" P/MANG 1\"",
+    "categoria": "Terminales Hidraulicos",
+    "precio": 19330,
+    "descripcion": "Terminal hidráulico para prensado, fabricado en acero al carbono de alta resistencia. Compatible con mangueras hidráulicas SAE y disponible en roscas NPT, BSP, JIC y métricas. Garantiza conexiones seguras y libres de fugas en sistemas de alta presión.",
+    "imagen": "galeria/TH.PNG",
+    "stock": 1000
+  }
+]

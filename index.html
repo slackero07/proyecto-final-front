@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MAN-TER SHOP: e-commerce de mangueras hidráulicas, flexibles metálicos, terminales, bridas y accesorios industriales.">
+  <meta name="keywords" content="mangueras hidráulicas, flexibles metálicos, bridas, terminales, accesorios industriales, MAN-TER">
+  <meta name="author" content="MAN-TER GROUP SA">
+  <title>MAN-TER SHOP | Ingeniería en conducción de fluidos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="Ir al inicio">
+        <img src="img/Logo0.png" alt="Logo MAN-TER" class="nav-logo"> <span>MAN-TER SHOP</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#multimedia">Multimedia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          <li class="nav-item ms-lg-2 d-flex gap-2 align-items-center">
+            <button id="modoOscuro" class="theme-toggle" type="button" aria-label="Activar modo oscuro">🌙</button>
+            <button class="btn btn-outline-light position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#carritoRapido" aria-controls="carritoRapido" aria-label="Abrir carrito rápido">
+              🛒 Carrito <span id="contadorCarrito" class="badge rounded-pill text-bg-danger">0</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="inicio" class="hero text-white text-center d-flex align-items-center justify-content-center">
+    <div class="container hero-content">
+      <span class="hero-badge">Proyecto Final Front-End</span>
+      <img src="img/Logo1.png" class="logo d-block mx-auto mt-3" alt="MAN-TER GROUP SA">
+      <h1 class="mt-4">Soluciones industriales a medida</h1>
+      <p class="lead">Catálogo dinámico, carrito persistente y experiencia responsive.</p>
+      <div class="d-flex justify-content-center gap-3 flex-wrap mt-3">
+        <a href="#productos" class="btn btn-primary btn-lg">Ver catálogo</a>
+        <button class="btn btn-outline-light btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#carritoRapido">Abrir carrito</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container py-5">
+      <h2 class="text-center mb-4">Quiénes Somos</h2>
+      <p class="text-center texto-destacado">MAN-TER GROUP es una empresa de manufactura orientada a la fabricación de mangueras, terminales y accesorios para instalaciones hidráulicas, neumáticas y conducción de fluidos en general.</p>
+      <div class="row g-4 mt-4">
+        <article class="col-md-4"><div class="beneficio">⚙️ <h3>Fabricación</h3><p>Armado y mecanizado de componentes industriales.</p></div></article>
+        <article class="col-md-4"><div class="beneficio">🧪 <h3>Calidad</h3><p>Control de procesos, trazabilidad y verificación técnica.</p></div></article>
+        <article class="col-md-4"><div class="beneficio">🚚 <h3>Entrega</h3><p>Soluciones para mantenimiento y producción.</p></div></article>
+      </div>
+    </section>
+
+    <section id="productos" class="py-5 seccion-gris">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">
+          <div>
+            <h2 class="mb-1">Catálogo de productos</h2>
+            <p class="mb-0 text-muted">Productos cargados con Fetch API desde un archivo JSON.</p>
+          </div>
+          <input id="buscadorProductos" class="form-control buscador" type="search" placeholder="Buscar producto..." aria-label="Buscar producto">
+        </div>
+        <div id="contenedorProductos" class="productos-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="galeria" class="container py-5">
+      <h2 class="text-center mb-4">Galería de trabajos</h2>
+      <div class="autoplay slider">
+        <div class="px-2"><img src="galeria/1.jpg" class="img-fluid rounded shadow" alt="Trabajo industrial 1"></div>
+        <div class="px-2"><img src="galeria/8.jpg" class="img-fluid rounded shadow" alt="Trabajo industrial 2"></div>
+        <div class="px-2"><img src="galeria/16.jpg" class="img-fluid rounded shadow" alt="Trabajo industrial 3"></div>
+        <div class="px-2"><img src="galeria/24.jpg" class="img-fluid rounded shadow" alt="Trabajo industrial 4"></div>
+        <div class="px-2"><img src="galeria/32.jpg" class="img-fluid rounded shadow" alt="Trabajo industrial 5"></div>
+      </div>
+    </section>
+
+    <section id="multimedia" class="container py-5">
+      <h2 class="text-center mb-4">Multimedia</h2>
+      <article class="multimedia-grid">
+        <img src="img/mecaniz300x300.gif" class="img-fluid rounded shadow" alt="Proceso de mecanizado">
+        <img src="img/robot.gif" class="img-fluid rounded shadow" alt="Robot automatizado">
+        <img src="img/brazor.gif" class="img-fluid rounded shadow" alt="Proceso de soldadura">
+        <img src="img/traza.gif" class="img-fluid rounded shadow" alt="Proceso de trazabilidad">
+      </article>
+    </section>
+
+    <section id="contacto" class="py-5 seccion-gris">
+      <div class="container">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <form id="formContacto" action="https://formspree.io/f/xgoqordg" method="POST" class="contact-form" novalidate>
+          <div class="mb-3"><label for="nombre" class="form-label">Nombre</label><input id="nombre" type="text" name="nombre" class="form-control" required></div>
+          <div class="mb-3"><label for="email" class="form-label">Correo electrónico</label><input id="email" type="email" name="email" class="form-control" required></div>
+          <div class="mb-3"><label for="mensaje" class="form-label">Mensaje</label><textarea id="mensaje" name="mensaje" rows="5" class="form-control" required></textarea></div>
+          <p id="mensajeFormulario" class="small fw-semibold" aria-live="polite"></p>
+          <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="maps" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Ubicación</h2>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-6"><iframe title="Ubicación de MAN-TER GROUP" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.2739020407453!2d-58.34484666350561!3d-34.6477850453873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333c23a063a25%3A0xecf03dc3eb2e4fda!2sMAN-TER%20OLEOHIDRAULICA!5e0!3m2!1ses!2sar!4v1622228147242!5m2!1ses!2sar" width="100%" height="350" style="border:0; border-radius:12px;" allowfullscreen loading="lazy"></iframe></div>
+          <div class="col-lg-6"><div class="h-100 p-4 bg-white rounded shadow d-flex flex-column justify-content-center"><h3>MAN-TER GROUP S.A.</h3><p><strong>Dirección:</strong><br>Núñez 1159, Dock Sud<br>Provincia de Buenos Aires, Argentina</p><p><strong>Horario:</strong><br>Lunes a viernes<br>08:00 a 12:00 hs<br>13:00 a 17:00 hs</p><p><strong>Teléfono:</strong><br>+54 11 4200-9677</p></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="offcanvas offcanvas-end" tabindex="-1" id="carritoRapido" aria-labelledby="carritoRapidoTitulo">
+    <div class="offcanvas-header">
+      <h2 class="offcanvas-title h5" id="carritoRapidoTitulo">Carrito rápido</h2>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column">
+      <div id="listaCarritoRapido" class="vstack gap-3 flex-grow-1"></div>
+      <div class="border-top pt-3 mt-3">
+        <div class="d-flex justify-content-between"><span>Subtotal</span><strong id="subtotalRapido">$0</strong></div>
+        <div class="d-flex justify-content-between text-muted"><span>IVA 21%</span><span id="ivaRapido">$0</span></div>
+        <div class="d-flex justify-content-between fs-5 mt-2"><span>Total</span><strong id="totalRapido">$0</strong></div>
+        <a href="carrito.html" class="btn btn-primary w-100 mt-3">Ver carrito completo</a>
+      </div>
+    </div>
+  </aside>
+
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index:1080"><div id="toastCarrito" class="toast" role="status" aria-live="polite"><div class="toast-header"><strong class="me-auto">Carrito</strong><button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Cerrar"></button></div><div class="toast-body">Producto agregado correctamente.</div></div></div>
+
+  <footer class="bg-dark text-white text-center py-4"><p>&copy; 2026 MAN-TER GROUP SA - Ingeniería en Conducción de Fluidos</p><p class="footer-credit mt-2">Proyecto Final Front-End · Desarrollado por Alfredo Casanova · 2026</p></footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/carrito.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
